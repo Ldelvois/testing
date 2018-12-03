@@ -1,0 +1,18 @@
+secret_number = 15
+int(guess) = 
+guess_count = 0
+guess_max = 10
+
+while guess != secret_number and guess_count != guess_max:
+     guess = input("Guess a number between 0 and 100: ")
+          if guess < secret_number:
+               print (“Your guess is low”)
+          else if guess > secret_number
+               print (“Your guess is high”)
+     guess_count =+ 1
+
+if guess_count != guess_max:
+     print("You are out of guesses")
+else:
+     print("You guessed right!")
+     
